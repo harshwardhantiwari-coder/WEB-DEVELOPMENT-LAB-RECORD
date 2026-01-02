@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harshwardhan Tiwari | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- INLINE CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1f2933;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+
+        nav {
+            background: #111827;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        section h2 {
+            margin-bottom: 15px;
+            color: #1f2933;
+            border-bottom: 2px solid #ddd;
+            display: inline-block;
+        }
+
+        #skills ul {
+            margin-left: 20px;
+        }
+
+        .project {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 6px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #2563eb;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background: #1d4ed8;
+        }
+
+        footer {
+            background: #1f2933;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Harshwardhan Tiwari</h1>
+        <p>Student | Aspiring Developer | Tech Enthusiast</p>
+        <button onclick="showMessage()">Say Hello</button>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hi! I'm Harshwardhan Tiwari, a motivated learner with an interest in
+            technology, programming, and building useful projects. I enjoy learning
+            new skills and improving myself every day.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript (Basics)</li>
+            <li>Python (Basics)</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio website created using HTML, CSS, and JavaScript.</p>
+        </div>
+
+        <div class="project">
+            <h3>Sample Project</h3>
+            <p>You can add details of your future or existing projects here.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: harshwardhan@example.com</p>
+        <p>Location: India</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Harshwardhan Tiwari</p>
+    </footer>
+
+    <!-- INLINE JAVASCRIPT -->
+    <script>
+        function showMessage() {
+            alert("Hello! Thanks for visiting Harshwardhan Tiwari's portfolio 😊");
+        }
+    </script>
+
+</body>
+</html>
